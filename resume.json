@@ -40,7 +40,9 @@
       "startDate": "2016-04-15",
       "summary": "Summery",
       "highlights": [
-        "Be a developer"
+        "Build and Deploy Cloud native applications",
+        "Work closely with the offshore team to sync between tasks",
+        "Optimize applications to laverage scaling for cloud solutions"
       ]
     },
     {
@@ -51,7 +53,9 @@
       "endDate": "2016-03-31",
       "summary": "Summery",
       "highlights": [
-        "Be a developer"
+        "Architect solutions to handle progressive requirment changes.",
+        "Build and deploy web apps.",
+        "Work closly with the customer for requirments and feedback."
       ]
     },
     {
@@ -62,7 +66,9 @@
       "endDate": "2012-12-31",
       "summary": "Summery",
       "highlights": [
-        "Be a developer"
+        "Build a solution which can handle intermediate level of traffic.",
+        "Host to an existing shared instance.",
+        "Optimize the solution to survive in low bandwidth condition."
       ]
     }
   ],
@@ -101,6 +107,109 @@
       "releaseDate": "2015-03-01",
       "website": "http://research.ijcaonline.org/volume113/number17/pxc3902067.pdf",
       "summary": "Use Cloud to manipulate large scale/volume images by using a low bandwidth remote interface."
+    }
+  ],
+  "projects":[
+    {
+      "name": "Compressed Image Manipulation and Replication over Cloud",
+      "description": "It was a college final year project. Online image editor which can be used to optimize website via Image Hosting and cloud acceleration.",
+      "keywords":[
+        "WebP", "Google App Engine", "Java", "Polymer"
+      ],
+      "startDate": "2014-08-01",
+      "endDate": "2015-04-01",
+      "roles":[
+        "UX Designer", "Architect", "Developer"
+      ],
+      "entity": "College Project",
+      "type": "application"
+    },
+    {
+      "name": "Helplineguru",
+      "description": "The customer wanted a search engine + CMS which is limited to Akola District. This project was build from scratch in PHP as the requirement stated that there should be no frameworks involved.",
+      "highlights":[
+        "Local Search engine",
+        "Note: Original Project has been changed since now"
+      ],
+      "keywords":[
+        "HTML", "CSS","AJAX", "PHP", "MySQL"
+      ],
+      "startDate": "2014-08-29",
+      "endDate": "2014-12-29",
+      "url": "http://helplineguru.com/",
+      "roles":[
+        "Architect", "Developer", "Desginer"
+      ],
+      "entity": "Helplineguru",
+      "type": "application"
+    },
+    {
+      "name": "Aditya Fitness Center",
+      "description": "Fitness Center display website to display and sell nutritional products and gym subscription",
+      "highlights":[
+        "Gallery to display Gym",
+        "Shopping cart page for nutritional products",
+        "Payment integration"
+      ],
+      "keywords":[
+        "HTML", "CSS","AJAX", "PHP", "MySQL"
+      ],
+      "startDate": "2013-01-01",
+      "endDate": "2013-02-01",
+      "roles":[
+        "UX Designer", "PHP Developer"
+      ],
+      "entity": "Freelancing",
+      "type": "application"
+    },
+    {
+      "name": "Employee Management Service",
+      "description": "EMS built for time and work tracking.",
+      "highlights":[
+        "Birds eye view to project management committee",
+        "Build for construction workers"
+      ],
+      "keywords":[
+        "AngularJS", "Laravel5", "Material Design"
+      ],
+      "url": "http://ems.bigboxinfosoft.com",
+      "roles":[
+        "1Architect", "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
+    },
+    {
+      "name": "Snap Seva",
+      "description": "Hire professionals for household work.",
+      "highlights":[
+        "Enables customer to hire a professional person to offload their household work."
+      ],
+      "keywords":[
+        "AngularJS", "Laravel5", "CI Jenkins"
+      ],
+      "url": "http://snapseva.com/",
+      "roles":[
+        "1Architect", "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
+    },
+    {
+      "name": "AFMC Alumni",
+      "description": "Alumni network.",
+      "highlights":[
+        "Enables students/alumni to create/manage events.",
+        "Check collage wall and donate funds to \"afmcfund\" via a Payment gateway"
+      ],
+      "keywords":[
+        "Laravel4.3", "CI Jenkins"
+      ],
+      "roles":[
+        "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
     }
   ],
   "skills": [
