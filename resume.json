@@ -8,7 +8,7 @@
     "website": "https://shikya.github.io",
     "summary": "He enjoys breaking complex technical scenarios and turns them into smaller working pieces. He completed Bachelors degree in Information Technology while doing freelancing. He believes that software architecture should be platform agnostic. Unless we want to reduce DevOps and maximize performance per buck. He believes that Open Source bring trust and transparency to the system. He enjoys Biryani and Technical discussion. Other than being a geek and doing hello world to newer technologies. He enjoys hitting road with his bike.",
     "location": {
-      "address": "Chandrashekar Avenue 3rd Main Road",
+      "address": "",
       "postalCode": "TN 600097",
       "city": "Chennai",
       "countryCode": "IN",
@@ -62,8 +62,8 @@
       "company": "Helplineguru.com",
       "position": "Technical Advisor, Full stack Developer",
       "website": "http://helplineguru.com",
-      "startDate": "2012-08-01",
-      "endDate": "2012-12-31",
+      "startDate": "2014-08-01",
+      "endDate": "2014-12-31",
       "summary": "Summery",
       "highlights": [
         "Build a solution which can handle intermediate level of traffic.",
@@ -74,7 +74,7 @@
   ],
   "education": [
     {
-      "institution": "Sinhgad Academy Of Engineering",
+      "institution": "Sinhgad Academy Of Engineering, Pune",
       "area": "Information Technology",
       "studyType": "Bachelor",
       "startDate": "2008-06-01",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "institution": "Jagruti Junior College",
+      "institution": "Jagruti Junior College, Akola",
       "area": "Computer Science",
       "studyType": "Higher Secondary Certificate",
       "startDate": "2006-06-01",
@@ -110,6 +110,87 @@
     }
   ],
   "projects":[
+    {
+      "name": "SaaS Application",
+      "description": "Bidirectional Scalable Application to leverage multiple cloud platforms",
+      "keywords":[
+        "AWS", "Angular", "Java", "Android", "JasperReports"
+      ],
+      "highlights":[
+        "Enables Customers to manage there business as a Enterprise Resource Planning Tool",
+        "Enables Developer to add plugable modules to the infrastucture with minimal configuration"
+      ],
+      "roles":[
+        "Full Stack Developer"
+      ],
+      "entity": "Company Project",
+      "type": "application"
+    },
+    {
+      "name": "eRFP Application",
+      "description": "Application which enables companies to get and manage Request for Proposals.",
+      "keywords":[
+        "PHP", "AWS", "Java", "Angular"
+      ],
+      "roles":[
+        "Full Stack Developer"
+      ],
+      "highlights":[
+        "Enables Brokers to file a RFP",
+        "Enables Customer to review and manage RFPs"
+      ],
+      "entity": "Company Project",
+      "type": "application"
+    },
+    {
+      "name": "Employee Management Service",
+      "description": "EMS built for time and work tracking.",
+      "highlights":[
+        "Birds eye view to project management committee",
+        "Build for construction workers"
+      ],
+      "keywords":[
+        "AngularJS", "Laravel5", "Material Design"
+      ],
+      "url": "http://ems.bigboxinfosoft.com",
+      "roles":[
+        "1Architect", "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
+    },
+    {
+      "name": "Snap Seva",
+      "description": "Hire professionals for household work.",
+      "highlights":[
+        "Enables customer to hire a professional person to offload their household work."
+      ],
+      "keywords":[
+        "AngularJS", "Laravel5", "CI Jenkins"
+      ],
+      "url": "http://snapseva.com/",
+      "roles":[
+        "1Architect", "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
+    },
+    {
+      "name": "Alumni college network",
+      "description": "Alumni network.",
+      "highlights":[
+        "Enables students/alumni to create/manage events.",
+        "Check college wall and donate funds to \"college memorial fund\" via a Payment gateway"
+      ],
+      "keywords":[
+        "Laravel4.3", "CI"
+      ],
+      "roles":[
+        "UX Designer", "Web Developer"
+      ],
+      "entity": "BigBox",
+      "type": "application"
+    },
     {
       "name": "Compressed Image Manipulation and Replication over Cloud",
       "description": "It was a college final year project. Online image editor which can be used to optimize website via Image Hosting and cloud acceleration.",
@@ -161,55 +242,6 @@
       ],
       "entity": "Freelancing",
       "type": "application"
-    },
-    {
-      "name": "Employee Management Service",
-      "description": "EMS built for time and work tracking.",
-      "highlights":[
-        "Birds eye view to project management committee",
-        "Build for construction workers"
-      ],
-      "keywords":[
-        "AngularJS", "Laravel5", "Material Design"
-      ],
-      "url": "http://ems.bigboxinfosoft.com",
-      "roles":[
-        "1Architect", "UX Designer", "Web Developer"
-      ],
-      "entity": "BigBox",
-      "type": "application"
-    },
-    {
-      "name": "Snap Seva",
-      "description": "Hire professionals for household work.",
-      "highlights":[
-        "Enables customer to hire a professional person to offload their household work."
-      ],
-      "keywords":[
-        "AngularJS", "Laravel5", "CI Jenkins"
-      ],
-      "url": "http://snapseva.com/",
-      "roles":[
-        "1Architect", "UX Designer", "Web Developer"
-      ],
-      "entity": "BigBox",
-      "type": "application"
-    },
-    {
-      "name": "AFMC Alumni",
-      "description": "Alumni network.",
-      "highlights":[
-        "Enables students/alumni to create/manage events.",
-        "Check collage wall and donate funds to \"afmcfund\" via a Payment gateway"
-      ],
-      "keywords":[
-        "Laravel4.3", "CI Jenkins"
-      ],
-      "roles":[
-        "UX Designer", "Web Developer"
-      ],
-      "entity": "BigBox",
-      "type": "application"
     }
   ],
   "skills": [
@@ -229,7 +261,8 @@
       "keywords": [
         "NodeJS",
         "Java",
-        "PHP"
+        "PHP",
+        "C++"
       ]
     },
     {
