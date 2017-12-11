@@ -1,0 +1,29 @@
+{
+  "name": "shikya",
+  "version": "1.0.0",
+  "description": "Shrikant Sonone's resume.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikya/shikya.github.io.git"
+  },
+  "keywords": [
+    "resume",
+    "shrikant",
+    "sonone"
+  ],
+  "author": "shrikantsonone@gmail.com",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/shikya/shikya.github.io/issues"
+  },
+  "homepage": "https://github.com/shikya/shikya.github.io#readme",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "resume-cli": "^0.4.19",
+    "resume-schema": "0.0.16"
+  }
+}

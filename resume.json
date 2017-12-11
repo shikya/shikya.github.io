@@ -2,7 +2,6 @@
   "basics": {
     "name": "Shrikant Sonone",
     "label": "Full Stack Developer",
-    "picture": "https://raw.githubusercontent.com/shikya/shikya.github.io/json-resume/pic.jpg",
     "email": "shrikantsonone@gmail.com",
     "phone": "+91 8983 026126",
     "website": "https://shikya.github.io",
@@ -35,14 +34,14 @@
   "work": [
     {
       "company": "Coda Global",
-      "position": "Developer",
+      "position": "Software Engineer",
       "website": "http://coda.global",
       "startDate": "2016-04-15",
       "summary": "Summery",
       "highlights": [
         "Build and Deploy Cloud native applications",
         "Work closely with the offshore team to sync between tasks",
-        "Optimize applications to laverage scaling for cloud solutions"
+        "Optimize applications to leverage scaling for cloud solutions"
       ]
     },
     {
@@ -53,9 +52,9 @@
       "endDate": "2016-03-31",
       "summary": "Summery",
       "highlights": [
-        "Architect solutions to handle progressive requirment changes.",
+        "Architect solutions to handle progressive requirement changes.",
         "Build and deploy web apps.",
-        "Work closly with the customer for requirments and feedback."
+        "Work closely with the customer for requirement and feedback."
       ]
     },
     {
@@ -66,7 +65,7 @@
       "endDate": "2014-12-31",
       "summary": "Summery",
       "highlights": [
-        "Build a solution which can handle intermediate level of traffic.",
+        "Build a solution which can handle an intermediate level of traffic.",
         "Host to an existing shared instance.",
         "Optimize the solution to survive in low bandwidth condition."
       ]
@@ -117,8 +116,8 @@
         "AWS", "Angular", "Java", "Android", "JasperReports"
       ],
       "highlights":[
-        "Enables Customers to manage there business as a Enterprise Resource Planning Tool",
-        "Enables Developer to add plugable modules to the infrastucture with minimal configuration"
+        "Enables Customers to manage their business as an Enterprise Resource Planning Tool",
+        "Enables Developer to add pluggable modules to the infrastructure with minimal configuration"
       ],
       "roles":[
         "Full Stack Developer"
@@ -136,27 +135,10 @@
         "Full Stack Developer"
       ],
       "highlights":[
-        "Enables Brokers to file a RFP",
+        "Enables Brokers to file an RFP",
         "Enables Customer to review and manage RFPs"
       ],
       "entity": "Company Project",
-      "type": "application"
-    },
-    {
-      "name": "Employee Management Service",
-      "description": "EMS built for time and work tracking.",
-      "highlights":[
-        "Birds eye view to project management committee",
-        "Build for construction workers"
-      ],
-      "keywords":[
-        "AngularJS", "Laravel5", "Material Design"
-      ],
-      "url": "http://ems.bigboxinfosoft.com",
-      "roles":[
-        "1Architect", "UX Designer", "Web Developer"
-      ],
-      "entity": "BigBox",
       "type": "application"
     },
     {
@@ -247,7 +229,6 @@
   "skills": [
     {
       "name": "Front End Development",
-      "level": "Master",
       "keywords": [
         "Angular 1.5/4",
         "ReactJS",
@@ -257,7 +238,6 @@
     },
     {
       "name": "Backend Developement",
-      "level": "Advanced",
       "keywords": [
         "NodeJS",
         "Java",
@@ -267,7 +247,6 @@
     },
     {
       "name": "DevOps",
-      "level": "Advanced",
       "keywords": [
         "Amazon Web Services",
         "Docker"
