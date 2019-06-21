@@ -4,7 +4,8 @@
   "description": "Shrikant Sonone's resume.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/hackmyresume/dist/cli/index.js validate resume.json",
+    "start": "node node_modules/hackmyresume/dist/cli/index.js build resume.json TO index.html -t node_modules/jsonresume-theme-stackoverflow"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,8 @@
   },
   "homepage": "https://github.com/shikya/shikya.github.io#readme",
   "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "resume-cli": "^0.4.19",
     "resume-schema": "0.0.16"
   }
 }
