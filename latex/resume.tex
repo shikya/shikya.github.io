@@ -1,0 +1,143 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Shrikant Sonone} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+% \address{+1(123) 456-7890 \\ Pune, IN} 
+\address{Pune, IN} 
+\address{\href{mailto:shrikantsonone@gmail.com}{shrikantsonone@gmail.com} \\ \href{https://www.linkedin.com/in/shrikant-sonone/}{linkedin.com/in/shrikant-sonone/} \\ \href{https://shikya.github.io/}{shikya.github.io/}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Senior Software Engineer with 10+ years of experience designing and building scalable cloud-native systems.
+Expertise in distributed systems, backend architecture, and high-throughput APIs, with strong full-stack capabilities.
+Proven track record of improving performance, scalability, and reliability of production systems at scale.}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Java, Scala, Node.js, Python, C++\\
+Backend & Microservices, REST APIs, Distributed Systems, Event-driven Architecture\\
+Frontend & React, Angular\\
+Cloud and DevOps & GCP AWS, Kubernetes, Docker\\
+Databases & PostgreSQL, MongoDB\\
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{PROFESSIONAL EXPERIENCE}
+
+\textbf{Technical Lead} \hfill Jan 2025 - Present\\
+Schlumberger \hfill \textit{Pune, IN}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Led a team of 20 engineers to design and deliver scalable backend systems for enterprise data platforms
+     \item Designed and developed a generic database abstraction layer, enabling multiple enterprise customers to securely integrate their databases with OSDU-based platforms
+     \item Re-architected data processing pipeline by replacing Apache NiFi with Spring Boot-based services, increasing parallel developer productivity (from 1 developer per sprint to multiple contributors) and improving maintainability
+     \item Designed and implemented scalable data ingestion pipelines with backpressure handling, improving system stability under high-load conditions
+     \item Defined and enforced reliability-first engineering practices, prioritizing data accuracy, fault tolerance, and controlled failure handling in distributed systems
+     \item Contributed to the design of cross-environment backup and recovery systems supporting both on-premise and cloud deployments
+     \item Built a secure data access pipeline enabling execution of SQL queries in private/on-prem environments via message bus, eliminating direct socket communication while maintaining user context and real-time response handling
+     \item Drove architectural decisions and collaborated across teams to deliver scalable, secure, and maintainable backend systems
+ \end{itemize}
+ 
+\textbf{Software Engineer} \hfill Jan 2017 - Jan 2025\\
+Schlumberger \hfill \textit{Pune, IN}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Engineered distributed backend systems using Scala, supporting ~1M asynchronous requests with high stability
+     \item Led migration from NoSQL to SQL-based architecture, improving system reliability from 99.99\% to 99.9999\% with zero data loss and no downtime during migration
+     \item Reduced production downtime from 2-3 hours every ~3-4 days to ~5 minutes per month, significantly improving system availability and operational stability
+     \item Designed and implemented a custom backup and recovery solution for legacy databases lacking cloud-native support, enabling safe and reliable cloud migration
+     \item Built a fault-tolerant data migration framework to transition from NoSQL to SQL systems while ensuring strong data consistency guarantees
+     \item Optimized data processing pipelines using tail-recursive patterns, reducing memory consumption by ~10%    
+ \end{itemize}
+
+\textbf{Full Stack Developer} \hfill Apr 2016 - May 2018\\
+Coda Global \hfill \textit{Chennai, IN}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Designed and built data pipelines for retrieval, filtering, and data cleanup, working around third-party API rate limits and constraints
+     \item Migrated on-premise applications to AWS-based cloud-native architecture, improving scalability and operational efficiency
+     \item Improved search performance from ~17s to ~2s in high-throughput environments by implementing geo-fencing and optimized query strategies
+     \item Enhanced search accuracy for poor/ambiguous address inputs using PostgreSQL GIS and geospatial indexing techniques
+     \item Developed cross-platform mobile-compatible backend services to support multi-device user interactions
+     \item Collaborated with distributed teams to deliver production-ready features in an agile environment
+\end{itemize}
+
+\textbf{Full Stack Developer} \hfill Aug 2015 - Mar 2016\\
+BigBox Infosoft \hfill \textit{Pune, IN}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Designed and developed web applications with evolving product requirements
+     \item Built end-to-end features across frontend and backend systems
+     \item Collaborated directly with clients to gather requirements and deliver solutions
+\end{itemize}
+
+\textbf{Freelance / Technical Advisor} \hfill Aug 2014 - Dec 2014\\
+Helplineguru \hfill \textit{Akola, IN}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Built and deployed a local search platform, handling moderate traffic workloads
+     \item Optimized application for low-bandwidth environments
+     \item Managed hosting and performance tuning on shared infrastructure
+\end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Distributed Data Synchronization Platform (Hybrid Cloud)} {Designed a scalable data platform to synchronize data between on-premise systems and cloud environments using message-driven architecture. Implemented ingestion pipelines with backpressure and reliability mechanisms for stable high-throughput processing.
+Tech Stack: Java, Python, Spring Boot, FastAPI, Flask, Azure Cloud}
+\item \textbf{Distributed Production Data Platform} {Built a high-performance distributed data system using polyglot persistence (time-series, graph, and relational databases) for large-scale production data. Led migration from NoSQL to SQL, improving reliability from 99.99\% to 99.9999\% with zero data loss.}
+\item \textbf{Real Estate Search Platform with NLP} {Developed an NLP-based real estate search engine with geospatial optimization using PostgreSQL GIS. Improved query performance from ~17s to ~2s and enhanced search accuracy for ambiguous inputs.}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Engineering (Information Technology)}, Sinhgad Academy of Engineering, Pune \hfill {2008 - 2015}\\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PUBLICATIONS} 
+\begin{itemize}
+    \item 	Compressed Image Manipulation and Replication over Cloud, IJCA (2015)
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ADDITIONAL} 
+\begin{itemize}
+    \item Open-source enthusiast.
+    \item Interests: IoT (Raspberry Pi, Arduino), automation systems.
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
